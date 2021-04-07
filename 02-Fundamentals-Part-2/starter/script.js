@@ -1,3 +1,5 @@
+'use strict'
+
 // const calcAge = function (birhtYear) {
 //     return 2037 - birhtYear;
 // }
@@ -168,50 +170,108 @@
 
 // result();
 
-// for loops keeps running while condition is true
-for (let rep = 1; rep <= 10; rep++) {
-    console.log(`Lifting weights repetition ${rep} 🏋️‍♂️`);
-}
-
-const jonas = [
-    'Jonas',
-    'Schmedtmann',
-    2037 - 1991,
-    'teacher',
-    ['Michael', 'Peter', 'Steven'], 
-    true
-];
-
-const types = [];
-
-// for (let i = 0; i < jonas.length; i++){
-//     console.log(jonas[i], typeof jonas[i])
-
-//     // types[i] = typeof jonas[i];
-
-//     types.push(typeof jonas[i])
+// // for loops keeps running while condition is true
+// for (let rep = 1; rep <= 10; rep++) {
+//     console.log(`Lifting weights repetition ${rep} 🏋️‍♂️`);
 // }
 
-console.log(types);
+// const jonas = [
+//     'Jonas',
+//     'Schmedtmann',
+//     2037 - 1991,
+//     'teacher',
+//     ['Michael', 'Peter', 'Steven'], 
+//     true
+// ];
 
-const years = [1991, 2007, 1969, 2020];
-const ages = [];
+// const types = [];
 
-for (let i = 0; i < years.length; i++) {
-    ages.push (2037 - years[i])
-}
+// // for (let i = 0; i < jonas.length; i++){
+// //     console.log(jonas[i], typeof jonas[i])
 
-console.log(ages);
+// //     // types[i] = typeof jonas[i];
 
-for (let i = 0; i < jonas.length; i++){
-    if(typeof jonas[i] !== 'string') continue;
+// //     types.push(typeof jonas[i])
+// // }
 
-    console.log(jonas[i], typeof jonas[i])
-}
+// console.log(types);
 
-for (let i = 0; i < jonas.length; i++){
-    if(typeof jonas[i] === 'number') break;
+// const years = [1991, 2007, 1969, 2020];
+// const ages = [];
 
-    console.log(jonas[i], typeof jonas[i])
-}
+// for (let i = 0; i < years.length; i++) {
+//     ages.push (2037 - years[i])
+// }
 
+// console.log(ages);
+
+// for (let i = 0; i < jonas.length; i++){
+//     if(typeof jonas[i] !== 'string') continue;
+
+//     console.log(jonas[i], typeof jonas[i])
+// }
+
+// for (let i = 0; i < jonas.length; i++){
+//     if(typeof jonas[i] === 'number') break;
+
+//     console.log(jonas[i], typeof jonas[i])
+// }
+
+// const jonas = [
+//     'Jonas',
+//     'Schmedtmann',
+//     2037 - 1991,
+//     'teacher',
+//     ['Michael', 'Peter', 'Steven'], 
+//     true
+// ];
+
+// for (let i = jonas.length - 1; i >= 0; i--) {
+//     console.log(jonas[i])
+// }
+
+// for (let exercise = 1; exercise < 4; exercise++) {
+    
+//     for(let rep = 1; rep < 6; rep++){
+
+//     console.log(`Starting exercise ${exercise}`)
+//     console.log(`Lifting weight repeition ${rep}`)
+//     }
+// }
+
+// for (let rep = 1; rep <= 10; rep++) {
+//     console.log(`Lifting weights repetition ${rep}`);
+// }
+
+// let rep = 1
+// while (rep <= 10) {
+//     // console.log(`Lifting weights repetition ${rep}`);
+//     rep++
+// }
+
+// let dice = Math.trunc(Math.random() * 6) + 1;
+
+// while (dice !== 6) {
+//     console.log(`You rolled a ${dice}`)
+//     dice = Math.trunc(Math.random() * 6) + 1
+
+//     if (dice === 6) console.log('You rolled a 6');
+// }
+
+// let bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+// let tips = [];
+// let totals = []; 
+
+// const calcTip = function (bills) {
+//     return bills >= 50 && bills <= 300 ? bills * 0.15 :
+//     bills * 0.2;
+// }
+
+// for (let i = 0; i < bills.length; i++) {
+//     const tip = calcTip(bills[i]);
+//     tips.push(tip);
+//     totals.push(tip + bills[i]);
+
+//     console.log(bills, tips, totals);
+
+// }
