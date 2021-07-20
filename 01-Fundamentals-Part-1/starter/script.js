@@ -7,16 +7,28 @@
 // console.log('jonas');
 // console.log(23);
 
-let firstName = 'Jonas';
-console.log(firstName);
-console.log(firstName);
-console.log(firstName);
+// let firstName = 'Jonas';
+// console.log(firstName);
+// console.log(firstName);
+// console.log(firstName);
 
-let myFirstJob = 'Programmer';
-let myCurrentJob = 'Teacher';
+// let myFirstJob = 'Programmer';
+// let myCurrentJob = 'Teacher';
 
-let job1 = 'Programemr';
-let job2 = 'Teacher';
+// let job1 = 'Programemr';
+// let job2 = 'Teacher';
 
-console.log(myFirstJob);
+// console.log(myFirstJob);
+
+//////////
+
+// let country = 'USA';
+// let continent = 'North America'
+// let population = 'Lots of folks'
+
+// console.log(country);
+// console.log(continent);
+// console.log(population);
+
+//////////
 
