@@ -22,6 +22,7 @@
 
 //////////
 
+//Practice assigment
 // let country = 'USA';
 // let continent = 'North America'
 // let population = 'Lots of folks'
