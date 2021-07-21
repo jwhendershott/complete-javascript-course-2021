@@ -16,7 +16,7 @@
 // let myCurrentJob = 'Teacher';
 
 // let job1 = 'Programemr';
-let job2 = 'Teacher';
+// let job2 = 'Teacher';
 
 // console.log(myFirstJob);
 
@@ -71,39 +71,54 @@ let job2 = 'Teacher';
 // job = 'paperboy';
 
 // Math operators
-const currentYear = 2037
-const ageJonas = currentYear - 1991;
-const ageSarah = currentYear - 2019;
-console.log(ageJonas, ageSarah);
+// const currentYear = 2037
+// const ageJonas = currentYear - 1991;
+// const ageSarah = currentYear - 2019;
+// console.log(ageJonas, ageSarah);
 
-console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
-// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+// console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+// // 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
 
-const firstname = 'Jonas';
-const lastName = 'Schmedtmann';
+// const firstname = 'Jonas';
+// const lastName = 'Schmedtmann';
 
-console.log(firstname + ' ' + lastName);
+// console.log(firstname + ' ' + lastName);
 
-let x = 10 + 5; // x = 15
-console.log(x);
+// let x = 10 + 5; // x = 15
+// console.log(x);
 
-// Assignment operators
-x += 10; // x = x + 10 = 25
-x *= 4; // 25 x 4 = 100
-x /= 2; // 100 / 2
-x++; // x = x + 1
-x--;
-x--;
-console.log(x);
+// // Assignment operators
+// x += 10; // x = x + 10 = 25
+// x *= 4; // 25 x 4 = 100
+// x /= 2; // 100 / 2
+// x++; // x = x + 1
+// x--;
+// x--;
+// console.log(x);
 
-// Comparison operators
-console.log(ageJonas > ageSarah); // > , <, >=, <=
-console.log(ageSarah >= 18);
+// // Comparison operators
+// console.log(ageJonas > ageSarah); // > , <, >=, <=
+// console.log(ageSarah >= 18);
 
-const isFullAge = ageSarah >= 18;
-console.log(isFullAge);
+// const isFullAge = ageSarah >= 18;
+// console.log(isFullAge);
 
-console.log(currentYear - 1991 > currentYear - 2018);
+// console.log(currentYear - 1991 > currentYear - 2018);
+
+// const currentYear = 2037
+// const ageJonas = currentYear - 1991;
+// const ageSarah = currentYear - 2018;
+
+// console.log(currentYear - 1991 > currentYear - 2018);
+
+// // console.log(25 - 10 - 5);
+
+// let x, y;
+// x = y = 25 - 10 - 5; // x = y = 10, 
+// console.log(x, y); // (10, 10)
+
+// const averageAge = (ageJonas + ageSarah) / 2; 
+// console.log(ageJonas, ageSarah, averageAge);
 
 
 //////////
