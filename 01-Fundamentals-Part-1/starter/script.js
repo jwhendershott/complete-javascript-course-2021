@@ -54,24 +54,56 @@ let job2 = 'Teacher';
 // console.log(year);
 // console.log(typeof year);
 
-let age = 30;
-age = 45
+// let age = 30;
+// age = 45
 
-console.log(age);
+// console.log(age);
 
-const day = 'monday';
-// day = 'tuesday';
-console.log(day);
+// const day = 'monday';
+// // day = 'tuesday';
+// console.log(day);
 
-//throws console error
-// const job;
+// //throws console error
+// // const job;
 
 //
-var job = 'programmer';
-job = 'paperboy';
+// var job = 'programmer';
+// job = 'paperboy';
 
+// Math operators
+const currentYear = 2037
+const ageJonas = currentYear - 1991;
+const ageSarah = currentYear - 2019;
+console.log(ageJonas, ageSarah);
 
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
 
+const firstname = 'Jonas';
+const lastName = 'Schmedtmann';
+
+console.log(firstname + ' ' + lastName);
+
+let x = 10 + 5; // x = 15
+console.log(x);
+
+// Assignment operators
+x += 10; // x = x + 10 = 25
+x *= 4; // 25 x 4 = 100
+x /= 2; // 100 / 2
+x++; // x = x + 1
+x--;
+x--;
+console.log(x);
+
+// Comparison operators
+console.log(ageJonas > ageSarah); // > , <, >=, <=
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+console.log(isFullAge);
+
+console.log(currentYear - 1991 > currentYear - 2018);
 
 
 //////////
@@ -84,6 +116,10 @@ job = 'paperboy';
 // console.log(country);
 // console.log(continent);
 // console.log(population);
+
+
+
+
 
 //////////
 
