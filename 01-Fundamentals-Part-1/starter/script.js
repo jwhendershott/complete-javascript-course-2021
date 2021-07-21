@@ -23,36 +23,54 @@ let job2 = 'Teacher';
 // true;
 // console.log(true);
 
-//sets javaScriptIsFun as boolean
-let javaScriptIsFun = true
-console.log(javaScriptIsFun);
+// //sets javaScriptIsFun as boolean
+// let javaScriptIsFun = true
+// console.log(javaScriptIsFun);
 
-//logs typeof to console
-console.log(typeof javaScriptIsFun)
-console.log(typeof true);
-console.log(typeof job2);
-console.log(typeof 'this should say string');
+// //logs typeof to console
+// console.log(typeof javaScriptIsFun)
+// console.log(typeof true);
+// console.log(typeof job2);
+// console.log(typeof 'this should say string');
 
-//changes javaScriptIsFun to string
-javaScriptIsFun = 'YES!'
+// //changes javaScriptIsFun to string
+// javaScriptIsFun = 'YES!'
 
-//logs new value and typeof for javaScriptIsFun
-console.log(javaScriptIsFun);
-console.log(typeof javaScriptIsFun)
+// //logs new value and typeof for javaScriptIsFun
+// console.log(javaScriptIsFun);
+// console.log(typeof javaScriptIsFun)
 
-//defines year as empty variable
-let year;
+// //defines year as empty variable
+// let year;
 
-//logs year value and typeof as undefined
-console.log(year);
-console.log(typeof year);
+// //logs year value and typeof as undefined
+// console.log(year);
+// console.log(typeof year);
 
-//defines new value to year
-year = 1991
+// //defines new value to year
+// year = 1991
 
-//logs year value and typeof
-console.log(year);
-console.log(typeof year);
+// //logs year value and typeof
+// console.log(year);
+// console.log(typeof year);
+
+let age = 30;
+age = 45
+
+console.log(age);
+
+const day = 'monday';
+// day = 'tuesday';
+console.log(day);
+
+//throws console error
+// const job;
+
+//
+var job = 'programmer';
+job = 'paperboy';
+
+
 
 
 
