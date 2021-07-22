@@ -134,6 +134,8 @@ let johnBMI = johnMass / johnHeight ** 2;
 let MarkHighterBMI = johnBMI > markBMI;
 
 console.log('Test 1');
+console.log(markBMI);
+console.log(johnBMI);
 console.log(MarkHighterBMI);
 
 markMass = 95;
@@ -146,6 +148,8 @@ johnBMI = johnMass / johnHeight ** 2;
 MarkHighterBMI = johnBMI > markBMI;
 
 console.log('Test 2');
+console.log(markBMI);
+console.log(johnBMI);
 console.log(MarkHighterBMI);
 
 
