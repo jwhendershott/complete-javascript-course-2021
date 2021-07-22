@@ -141,40 +141,40 @@
 // multiple
 // lines`);
 
-const age = 15;
-const isOldEnough = age >= 18;
+// const age = 15;
+// const isOldEnough = age >= 18;
 
-if(isOldEnough) { 
-    console.log('Sarah can start driving.🏎');
-} else {
-    const yearsLeft = 18 - age;
-    console.log(`Sarah can't drive. Wait another ${yearsLeft} years. 😭`);
-};
+// if(isOldEnough) { 
+//     console.log('Sarah can start driving.🏎');
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sarah can't drive. Wait another ${yearsLeft} years. 😭`);
+// };
 
-const birthYear = 1991;
-let century;
+// const birthYear = 1991;
+// let century;
 
-if (birthYear <= 2000) {
-    century = 20;
-} else {
-    century = 21;
-};
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// };
 
-console.log(century);
+// console.log(century);
 
 
 //////////
 
-//Coding Challenge #1
+//Coding Challenge #1!
 
-// let markHeight = 1.69;
-// let johnHeight = 1.95;
-// let markMass = 78;
-// let johnMass = 92;
+let markHeight = 1.69;
+let johnHeight = 1.95;
+let markMass = 78;
+let johnMass = 92;
 
-// let markBMI = markMass / markHeight ** 2;
-// let johnBMI = johnMass / johnHeight ** 2;
-// let MarkHighterBMI = markBMI > johnBMI;
+let markBMI = markMass / markHeight ** 2;
+let johnBMI = johnMass / johnHeight ** 2;
+let MarkHighterBMI = markBMI > johnBMI;
 
 // console.log('Test 1');
 // console.log(markBMI);
@@ -194,6 +194,16 @@ console.log(century);
 // console.log(markBMI);
 // console.log(johnBMI);
 // console.log(MarkHighterBMI);
+
+//Coding Challen #2!
+
+// console.log(johnBMI, markBMI);
+
+// if(johnBMI > markBMI) {
+//     console.log(`John's BMI (${johnBMI}) is higher than Mark's (${markBMI})!`);
+// } else {
+//     console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`);
+// };
 
 
 //////////
