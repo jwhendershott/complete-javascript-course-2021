@@ -120,26 +120,48 @@
 // const averageAge = (ageJonas + ageSarah) / 2; 
 // console.log(ageJonas, ageSarah, averageAge);
 
-const firstName = 'Jonas';
-const job = 'teacher';
+// const firstName = 'Jonas';
+// const job = 'teacher';
+// const birthYear = 1991;
+// let year = 2037;
+
+// const jonas = `I'm ` + firstName + `, ` + `a ` + (year - birthYear) + ` year old ` + job + `!`;
+
+// console.log(jonas);
+
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+
+// console.log(jonasNew);
+
+// console.log('Sting with \n\
+// multiple \n\
+// lines');
+
+// console.log(`String
+// multiple
+// lines`);
+
+const age = 15;
+const isOldEnough = age >= 18;
+
+if(isOldEnough) { 
+    console.log('Sarah can start driving.🏎');
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah can't drive. Wait another ${yearsLeft} years. 😭`);
+};
+
 const birthYear = 1991;
-let year = 2037;
+let century;
 
-const jonas = `I'm ` + firstName + `, ` + `a ` + (year - birthYear) + ` year old ` + job + `!`;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+};
 
-console.log(jonas);
+console.log(century);
 
-const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
-
-console.log(jonasNew);
-
-console.log('Sting with \n\
-multiple \n\
-lines');
-
-console.log(`String
-multiple
-lines`);
 
 //////////
 
