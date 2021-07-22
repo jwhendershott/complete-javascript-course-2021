@@ -120,37 +120,58 @@
 // const averageAge = (ageJonas + ageSarah) / 2; 
 // console.log(ageJonas, ageSarah, averageAge);
 
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+let year = 2037;
+
+const jonas = `I'm ` + firstName + `, ` + `a ` + (year - birthYear) + ` year old ` + job + `!`;
+
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+
+console.log(jonasNew);
+
+console.log('Sting with \n\
+multiple \n\
+lines');
+
+console.log(`String
+multiple
+lines`);
+
 //////////
 
 //Coding Challenge #1
 
-let markHeight = 1.69;
-let johnHeight = 1.95;
-let markMass = 78;
-let johnMass = 92;
+// let markHeight = 1.69;
+// let johnHeight = 1.95;
+// let markMass = 78;
+// let johnMass = 92;
 
-let markBMI = markMass / markHeight ** 2;
-let johnBMI = johnMass / johnHeight ** 2;
-let MarkHighterBMI = johnBMI > markBMI;
+// let markBMI = markMass / markHeight ** 2;
+// let johnBMI = johnMass / johnHeight ** 2;
+// let MarkHighterBMI = markBMI > johnBMI;
 
-console.log('Test 1');
-console.log(markBMI);
-console.log(johnBMI);
-console.log(MarkHighterBMI);
+// console.log('Test 1');
+// console.log(markBMI);
+// console.log(johnBMI);
+// console.log(MarkHighterBMI);
 
-markMass = 95;
-markHeight = 1.88;
-johnMass = 85;
-johnHeight = 1.76;
+// markMass = 95;
+// markHeight = 1.88;
+// johnMass = 85;
+// johnHeight = 1.76;
 
-markBMI = markMass / markHeight ** 2;
-johnBMI = johnMass / johnHeight ** 2;
-MarkHighterBMI = johnBMI > markBMI;
+// markBMI = markMass / markHeight ** 2;
+// johnBMI = johnMass / johnHeight ** 2;
+// MarkHighterBMI = markBMI > johnBMI;
 
-console.log('Test 2');
-console.log(markBMI);
-console.log(johnBMI);
-console.log(MarkHighterBMI);
+// console.log('Test 2');
+// console.log(markBMI);
+// console.log(johnBMI);
+// console.log(MarkHighterBMI);
 
 
 //////////
