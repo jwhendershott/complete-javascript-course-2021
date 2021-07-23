@@ -236,24 +236,30 @@ console.log(2+3+4+'5') /*(2+3+4)+'5' = 95 */
 
 //Practice assigments
 
-//Assignment #1
+//Assignment Part 1
 
 let country = 'USA';
 let continent = 'North America'
-let population = 'Lots of folks'
+let population = 100000
 
 console.log(country);
 console.log(continent);
 console.log(population);
-
-//Assignment #2
 
 const isIsland = false;
 let language ; 
 
 language = 'English';
 
+console.log(language);
 
+language = 'Spanish';
+
+console.log(language);
+
+console.log(population / 2);
+console.log(population ++);
+console.log(population > 6000000)
 
 
 
