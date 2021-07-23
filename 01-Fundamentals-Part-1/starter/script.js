@@ -238,18 +238,18 @@ console.log(2+3+4+'5') /*(2+3+4)+'5' = 95 */
 
 //Assignment Part 1
 
-let country = 'USA';
-let continent = 'North America'
-let population = 100000
+// let country = 'USA';
+// let continent = 'North America'
+// let population = 100000
 
-console.log(country);
-console.log(continent);
-console.log(population);
+// console.log(country);
+// console.log(continent);
+// console.log(population);
 
-const isIsland = false;
-let language ; 
+// const isIsland = false;
+// let language ; 
 
-language = 'English';
+// language = 'English';
 
 // console.log(language);
 
@@ -257,21 +257,31 @@ language = 'English';
 
 // console.log(language);
 
-console.log(population / 2);
-population++
-console.log(population);
-console.log(population > 6000000);
+// console.log(population / 2);
+// population++
+// console.log(population);
+// console.log(population > 6000000);
 
-const description = `${country} is in ${continent}, and its ${population} people speak ${language}.`
+// const description = `${country} is in ${continent}, and its ${population} people speak ${language}.`
 
-console.log(description);
+// console.log(description);
 
-if(population > 33000000) {
-    console.log(`${country}'s population is above average.`);
-} else {
-    console.log(`${country}'s population is ${33000000 - population} below average.`)
-};
+// if(population > 33000000) {
+//     console.log(`${country}'s population is above average.`);
+// } else {
+//     console.log(`${country}'s population is ${33000000 - population} below average.`)
+// };
 
+// console.log('9' - '5');
+// // = 4
+// console.log('19' - '13' + '17');
+// // = 617
+// console.log('19' - '13' + 17);
+// // = 23
+// console.log('123' > 57);
+// // = true
+// console.log(5 + 6 + '4' + 9 - 4 - 2);
+// // = 1143
 
 
 //////////
