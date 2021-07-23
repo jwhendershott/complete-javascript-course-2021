@@ -251,15 +251,20 @@ let language ;
 
 language = 'English';
 
-console.log(language);
+// console.log(language);
 
-language = 'Spanish';
+// language = 'Spanish';
 
-console.log(language);
+// console.log(language);
 
 console.log(population / 2);
-console.log(population ++);
-console.log(population > 6000000)
+population++
+console.log(population);
+console.log(population > 6000000);
+
+const description = `${country} is in ${continent}, and its ${population} people speak ${language}.`
+
+console.log(description);
 
 
 
