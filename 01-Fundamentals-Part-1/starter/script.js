@@ -228,6 +228,42 @@
 //     console.log(`Height is UNDEFINED`);
 // };
 
+const age = 18;
+
+if(age === 18) {
+    console.log(`You just became an adult.`);
+};
+
+console.log(18 === 18);
+console.log(18 === 19);
+
+console.log('18' === 18);
+console.log(`18` == 18)
+
+if(age == 18) {
+    console.log(`You just became an adult. (loose)`);
+};
+
+const favNumber = Number(prompt(`What is your favorite number?`));
+console.log(favNumber);
+console.log(typeof favNumber);
+
+if(favNumber === 23) {
+    console.log(`23! Yeah!`);
+} else if (favNumber === 7) {
+    console.log(`7. Alright.`);
+} else {
+    console.log(`Pick better numbers.`);
+};
+
+
+if(favNumber !== 23) {
+    console.log(`Why not 23?`);
+};
+
+
+
+
 //////////
 
 //Coding Challenge #1!
