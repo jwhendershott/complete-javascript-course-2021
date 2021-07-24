@@ -228,38 +228,39 @@
 //     console.log(`Height is UNDEFINED`);
 // };
 
-const age = 18;
+// const age = 18;
 
-if(age === 18) {
-    console.log(`You just became an adult.`);
-};
+// if(age === 18) {
+//     console.log(`You just became an adult.`);
+// };
 
-console.log(18 === 18);
-console.log(18 === 19);
+// console.log(18 === 18);
+// console.log(18 === 19);
 
-console.log('18' === 18);
-console.log(`18` == 18)
+// console.log('18' === 18);
+// console.log(`18` == 18)
 
-if(age == 18) {
-    console.log(`You just became an adult. (loose)`);
-};
+// if(age == 18) {
+//     console.log(`You just became an adult. (loose)`);
+// };
 
-const favNumber = Number(prompt(`What is your favorite number?`));
-console.log(favNumber);
-console.log(typeof favNumber);
+// const favNumber = Number(prompt(`What is your favorite number?`));
+// console.log(favNumber);
+// console.log(typeof favNumber);
 
-if(favNumber === 23) {
-    console.log(`23! Yeah!`);
-} else if (favNumber === 7) {
-    console.log(`7. Alright.`);
-} else {
-    console.log(`Pick better numbers.`);
-};
+// if(favNumber === 23) {
+//     console.log(`23! Yeah!`);
+// } else if (favNumber === 7) {
+//     console.log(`7. Alright.`);
+// } else {
+//     console.log(`Pick better numbers.`);
+// };
 
 
-if(favNumber !== 23) {
-    console.log(`Why not 23?`);
-};
+// if(favNumber !== 23) {
+//     console.log(`Why not 23?`);
+// };
+
 
 
 
@@ -357,6 +358,18 @@ if(favNumber !== 23) {
 // // = true
 // console.log(5 + 6 + '4' + 9 - 4 - 2);
 // // = 1143
+
+// const numNeighbours = Number(prompt(`How many neighbour countries does your country have?`));
+
+// console.log(typeof numNeighbours);
+
+// if(numNeighbours === 1) {
+//     console.log(`Only 1 border.`);
+// } else if(numNeighbours > 1){
+//     console.log(`More than 1 border.`);
+// } else {
+//     console.log(`No borders.`);
+// };
 
 
 //////////
