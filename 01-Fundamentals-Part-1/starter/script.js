@@ -332,8 +332,8 @@ if(hasDriversLicense && hasGoodVision && !isTired) {
 
 // Coding Challenge #3!
 
-let dolphinsScore = 63 + 108 + 89 / 3
-let koalasScore = 88 + 91 + 110 / 3
+let dolphinsScore = (63 + 108 + 89) / 3
+let koalasScore = (88 + 91 + 110) / 3
 
 if (dolphinsScore > koalasScore) {
     console.log(`Dolphins win! 🏆`);
@@ -347,22 +347,25 @@ if (dolphinsScore > koalasScore) {
 
 // Bonus 1
 
-dolphinsScore = 97 + 112 + 101 / 3
-koalasScore = 109 + 95 + 123 / 3
+dolphinsScore = (97 + 112 + 101) / 3
+koalasScore = (109 + 95 + 123) / 3
+
+console.log(dolphinsScore);
+console.log(koalasScore);
 
 if (dolphinsScore > koalasScore && dolphinsScore >= 100) {
 } else if (koalasScore > dolphinsScore && koalasScore >= 100) {
     console.log(`Koalas win! 🏆`);
-} else if (dolphinsScore == koalasScore) {
+} else if (dolphinsScore && dolphinsScore >= 100 == koalasScore && koalasScore >= 100) {
     console.log(`Draw.`);
 } else {
-    console.log(`Error.`);
+    console.log(`Nobody wins.`);
 };
 
 // Bonus 2
 
-dolphinsScore = 97 + 112 + 101 / 3
-koalasScore = 109 + 95 + 106 / 3
+dolphinsScore = (97 + 112 + 101) / 3
+koalasScore = (109 + 95 + 106) / 3
 
 
 if (dolphinsScore > koalasScore && dolphinsScore > 100) {
