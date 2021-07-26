@@ -367,17 +367,17 @@ if (dolphinsScore > koalasScore && dolphinsScore >= 100) {
 dolphinsScore = (97 + 112 + 101) / 3
 koalasScore = (109 + 95 + 106) / 3
 
+console.log(dolphinsScore);
+console.log(koalasScore);
 
-if (dolphinsScore > koalasScore && dolphinsScore > 100) {
-    let dolphinsGreater = true;
+if (dolphinsScore > koalasScore && dolphinsScore >= 100) {
     console.log(`Dolphins win! 🏆`);
-} else if (koalasScore > dolphinsScore && koalasScore > 100) {
-    let koalsasGreater = true;
+} else if (koalasScore > dolphinsScore && koalasScore >= 100) {
     console.log(`Koalas win! 🏆`);
-} else if (dolphinsScore == koalasScore && dolphinsGreater && koalsasGreater) {
+} else if (dolphinsScore == koalasScore && dolphinsScore >=  100 && koalasScore >= 100) {
     console.log(`Draw.`);
 } else {
-    console.log(`Error.`);
+    console.log(`Nobody wins.`);
 };
 
 
