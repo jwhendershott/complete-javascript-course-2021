@@ -261,6 +261,29 @@
 //     console.log(`Why not 23?`);
 // };
 
+const hasDriversLicense = true; // A
+const hasGoodVision = true; // B
+
+// console.log(hasDriversLicense && hasGoodVision); 
+// console.log(hasDriversLicense || hasDriversLicense);
+// console.log(!hasDriversLicense);
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+// if(shouldDrive) {
+//     console.log(`Sarah is able to drive.`);
+// } else {
+//     console.log(`Someone else should drive.`);
+// };
+
+const isTired = false; // C
+console.log(hasDriversLicense || hasDriversLicense || isTired);
+
+if(hasDriversLicense && hasGoodVision && !isTired) {
+    console.log(`Sarah is able to drive.`);
+} else {
+    console.log(`Someone else should drive.`)
+}
 
 
 
@@ -297,7 +320,7 @@
 // console.log(johnBMI);
 // console.log(MarkHighterBMI);
 
-//Coding Challen #2!
+//Coding Challenge #2!
 
 // console.log(johnBMI, markBMI);
 
@@ -306,6 +329,53 @@
 // } else {
 //     console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`);
 // };
+
+// Coding Challenge #3!
+
+let dolphinsScore = 63 + 108 + 89 / 3
+let koalasScore = 88 + 91 + 110 / 3
+
+if (dolphinsScore > koalasScore) {
+    console.log(`Dolphins win! 🏆`);
+} else if (koalasScore > dolphinsScore) {
+    console.log(`Koalas win! 🏆`);
+} else if (dolphinsScore == koalasScore) {
+    console.log(`Draw.`);
+} else {
+    console.log(`Error.`);
+};
+
+// Bonus 1
+
+dolphinsScore = 97 + 112 + 101 / 3
+koalasScore = 109 + 95 + 123 / 3
+
+if (dolphinsScore > koalasScore && dolphinsScore >= 100) {
+} else if (koalasScore > dolphinsScore && koalasScore >= 100) {
+    console.log(`Koalas win! 🏆`);
+} else if (dolphinsScore == koalasScore) {
+    console.log(`Draw.`);
+} else {
+    console.log(`Error.`);
+};
+
+// Bonus 2
+
+dolphinsScore = 97 + 112 + 101 / 3
+koalasScore = 109 + 95 + 106 / 3
+
+
+if (dolphinsScore > koalasScore && dolphinsScore > 100) {
+    let dolphinsGreater = true;
+    console.log(`Dolphins win! 🏆`);
+} else if (koalasScore > dolphinsScore && koalasScore > 100) {
+    let koalsasGreater = true;
+    console.log(`Koalas win! 🏆`);
+} else if (dolphinsScore == koalasScore && dolphinsGreater && koalsasGreater) {
+    console.log(`Draw.`);
+} else {
+    console.log(`Error.`);
+};
 
 
 //////////
