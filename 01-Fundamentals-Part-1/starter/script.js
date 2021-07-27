@@ -261,14 +261,14 @@
 //     console.log(`Why not 23?`);
 // };
 
-const hasDriversLicense = true; // A
-const hasGoodVision = true; // B
+// const hasDriversLicense = true; // A
+// const hasGoodVision = true; // B
 
 // console.log(hasDriversLicense && hasGoodVision); 
 // console.log(hasDriversLicense || hasDriversLicense);
 // console.log(!hasDriversLicense);
 
-const shouldDrive = hasDriversLicense && hasGoodVision;
+// const shouldDrive = hasDriversLicense && hasGoodVision;
 
 // if(shouldDrive) {
 //     console.log(`Sarah is able to drive.`);
@@ -276,15 +276,39 @@ const shouldDrive = hasDriversLicense && hasGoodVision;
 //     console.log(`Someone else should drive.`);
 // };
 
-const isTired = false; // C
-console.log(hasDriversLicense || hasDriversLicense || isTired);
+// const isTired = false; // C
+// console.log(hasDriversLicense || hasDriversLicense || isTired);
 
-if(hasDriversLicense && hasGoodVision && !isTired) {
-    console.log(`Sarah is able to drive.`);
-} else {
-    console.log(`Someone else should drive.`)
-}
+// if(hasDriversLicense && hasGoodVision && !isTired) {
+//     console.log(`Sarah is able to drive.`);
+// } else {
+//     console.log(`Someone else should drive.`)
+// }
 
+const day = 'monday';
+
+switch(day) {
+    case 'monday':
+        console.log('Plan course structure');
+        console.log('Go to coding meetup');
+        break;
+    case 'tuesday':
+        console.log('Prepare theory videos');
+        break
+    case 'wednesday':
+    case 'thursday':
+        console.log('Write code examples');
+        break
+    case 'friday':
+        console.log('Record videos');
+        break
+    case 'saturday':
+    case 'sunday':
+        console.log('Enjoy the weekend');
+        break
+    default:
+        console.log('Not a valid day');
+}; 
 
 
 
@@ -330,55 +354,55 @@ if(hasDriversLicense && hasGoodVision && !isTired) {
 //     console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`);
 // };
 
-// Coding Challenge #3!
+// // Coding Challenge #3!
 
-let dolphinsScore = (63 + 108 + 89) / 3
-let koalasScore = (88 + 91 + 110) / 3
+// let dolphinsScore = (63 + 108 + 89) / 3
+// let koalasScore = (88 + 91 + 110) / 3
 
-if (dolphinsScore > koalasScore) {
-    console.log(`Dolphins win! 🏆`);
-} else if (koalasScore > dolphinsScore) {
-    console.log(`Koalas win! 🏆`);
-} else if (dolphinsScore == koalasScore) {
-    console.log(`Draw.`);
-} else {
-    console.log(`Error.`);
-};
+// if (dolphinsScore > koalasScore) {
+//     console.log(`Dolphins win! 🏆`);
+// } else if (koalasScore > dolphinsScore) {
+//     console.log(`Koalas win! 🏆`);
+// } else if (dolphinsScore == koalasScore) {
+//     console.log(`Draw.`);
+// } else {
+//     console.log(`Error.`);
+// };
 
-// Bonus 1
+// // Bonus 1
 
-dolphinsScore = (97 + 112 + 101) / 3
-koalasScore = (109 + 95 + 123) / 3
+// dolphinsScore = (97 + 112 + 101) / 3
+// koalasScore = (109 + 95 + 123) / 3
 
-console.log(dolphinsScore);
-console.log(koalasScore);
+// console.log(dolphinsScore);
+// console.log(koalasScore);
 
-if (dolphinsScore > koalasScore && dolphinsScore >= 100) {
-} else if (koalasScore > dolphinsScore && koalasScore >= 100) {
-    console.log(`Koalas win! 🏆`);
-} else if (dolphinsScore && dolphinsScore >= 100 == koalasScore && koalasScore >= 100) {
-    console.log(`Draw.`);
-} else {
-    console.log(`Nobody wins.`);
-};
+// if (dolphinsScore > koalasScore && dolphinsScore >= 100) {
+// } else if (koalasScore > dolphinsScore && koalasScore >= 100) {
+//     console.log(`Koalas win! 🏆`);
+// } else if (dolphinsScore && dolphinsScore >= 100 == koalasScore && koalasScore >= 100) {
+//     console.log(`Draw.`);
+// } else {
+//     console.log(`Nobody wins.`);
+// };
 
-// Bonus 2
+// // Bonus 2
 
-dolphinsScore = (97 + 112 + 101) / 3
-koalasScore = (109 + 95 + 106) / 3
+// dolphinsScore = (97 + 112 + 101) / 3
+// koalasScore = (109 + 95 + 106) / 3
 
-console.log(dolphinsScore);
-console.log(koalasScore);
+// console.log(dolphinsScore);
+// console.log(koalasScore);
 
-if (dolphinsScore > koalasScore && dolphinsScore >= 100) {
-    console.log(`Dolphins win! 🏆`);
-} else if (koalasScore > dolphinsScore && koalasScore >= 100) {
-    console.log(`Koalas win! 🏆`);
-} else if (dolphinsScore == koalasScore && dolphinsScore >=  100 && koalasScore >= 100) {
-    console.log(`Draw.`);
-} else {
-    console.log(`Nobody wins.`);
-};
+// if (dolphinsScore > koalasScore && dolphinsScore >= 100) {
+//     console.log(`Dolphins win! 🏆`);
+// } else if (koalasScore > dolphinsScore && koalasScore >= 100) {
+//     console.log(`Koalas win! 🏆`);
+// } else if (dolphinsScore == koalasScore && dolphinsScore >=  100 && koalasScore >= 100) {
+//     console.log(`Draw.`);
+// } else {
+//     console.log(`Nobody wins.`);
+// };
 
 
 //////////
