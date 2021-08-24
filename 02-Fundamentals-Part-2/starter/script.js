@@ -28,3 +28,4 @@ console.log(appleOrangeJuice);
 
 const num = Number('23');
 console.log(num);
+

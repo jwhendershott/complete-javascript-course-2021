@@ -524,6 +524,26 @@
 //     console.log(`No borders.`);
 // };
 
+// const numNeighbours = Number(
+//     prompt('How many neighbour countries does your country have?'));
+
+// if (numNeighbours === 1) {
+//     console.log('Only 1 border!');
+// } else if (numNeighbours > 1) {
+//     console.log('More than 1 border.');
+// } else {
+//     console.log('No borders.');
+// };
+
+const population = 25;
+const language = 'english';
+const isIsland = false;
+
+if (language === 'english' && population < 50 && !isIsland) {
+    console.log('America is for you!');
+} else {
+    console.log('You should probably live somwhere else.');
+};
 
 //////////
 
