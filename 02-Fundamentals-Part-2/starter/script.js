@@ -78,3 +78,32 @@
 // };
 
 // console.log(fruitProcessor(2,3));
+
+const calcAge = function(birthYear) {
+    return 2037 - birthYear
+};
+
+const yearsUntilRetirement = function (birthYear, firstName) {
+    const age = calcAge(birthYear);
+    const retirement = 65 - age;
+    const retired = `He's already retired.`
+
+    // if (retirement > 0) {
+    //     return retirement;
+    // } else {
+    //     return retired
+    // }
+
+    if (retirement > 0) {
+        console.log(`${firstName} retires in ${retirement} years.`)
+        return retirement;
+    } else {
+        return retired
+    }
+
+    // return retirement;
+    // return `${firstName} retires in ${retirement} years.`
+};
+
+console.log(yearsUntilRetirement(1991, 'Jonas'));
+console.log(yearsUntilRetirement(1970, 'Jacob'));
