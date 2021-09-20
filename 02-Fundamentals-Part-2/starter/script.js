@@ -141,34 +141,34 @@
 // const ages = [age1, age2, age3];
 // console.log(ages);
 
-const friends = ['Michael', 'Steven', 'Peter'];
-const newLength = friends.push('Jay');
-console.log(friends);
-console.log(newLength);
+// const friends = ['Michael', 'Steven', 'Peter'];
+// const newLength = friends.push('Jay');
+// console.log(friends);
+// console.log(newLength);
 
-friends.unshift('John');
-console.log(friends);
+// friends.unshift('John');
+// console.log(friends);
 
-//Remove elements
-friends.pop();
-const popped = friends.pop();
-console.log(popped);
-console.log(friends);
+// //Remove elements
+// friends.pop();
+// const popped = friends.pop();
+// console.log(popped);
+// console.log(friends);
 
-friends.shift();
-console.log(friends);
+// friends.shift();
+// console.log(friends);
 
-console.log(friends.indexOf('Steven'));
+// console.log(friends.indexOf('Steven'));
 
-friends.push(23);
-console.log(friends.includes('Steven'));
-console.log(friends.includes(23));
+// friends.push(23);
+// console.log(friends.includes('Steven'));
+// console.log(friends.includes(23));
 
-if (friends.includes('Peter')) {
-    console.log('You have a friend called Peter.');
-} else {
-    console.log(`You're a stupid loser with no friends.`);
-}
+// if (friends.includes('Peter')) {
+//     console.log('You have a friend called Peter.');
+// } else {
+//     console.log(`You're a stupid loser with no friends.`);
+// }
 
 
 /**********Coding challenges**********/
@@ -217,3 +217,29 @@ if (friends.includes('Peter')) {
 // }
 
 // checkWinner(scoreDolphins, scoreKoalas);
+
+// Coding Challene #2
+
+// const bills = [125, 555, 44];
+
+// function calctip (bill) {
+        
+//     if (bill >= 50 && bill <= 100 ) {
+//         var tip = 0
+//         var tip = bill * .15;
+//     } else {
+//         var tip = 0
+//         var tip = bill * .2;
+//     }
+
+//     console.log(tip);
+
+// }
+
+// const calcTip = function(bill) {
+//     return bill >= 50 && bill <= 300 ? bill * .15 : bill * .2
+// } 
+
+// const bills = [124, 555, 44];
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+// console.log(bills, tips);
