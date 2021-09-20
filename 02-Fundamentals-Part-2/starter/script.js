@@ -141,8 +141,35 @@
 // const ages = [age1, age2, age3];
 // console.log(ages);
 
- const friend = ['Michael', 'Steven', 'Peter'];
- friends.push
+const friends = ['Michael', 'Steven', 'Peter'];
+const newLength = friends.push('Jay');
+console.log(friends);
+console.log(newLength);
+
+friends.unshift('John');
+console.log(friends);
+
+//Remove elements
+friends.pop();
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+friends.shift();
+console.log(friends);
+
+console.log(friends.indexOf('Steven'));
+
+friends.push(23);
+console.log(friends.includes('Steven'));
+console.log(friends.includes(23));
+
+if (friends.includes('Peter')) {
+    console.log('You have a friend called Peter.');
+} else {
+    console.log(`You're a stupid loser with no friends.`);
+}
+
 
 /**********Coding challenges**********/
 
