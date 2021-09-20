@@ -141,6 +141,9 @@
 // const ages = [age1, age2, age3];
 // console.log(ages);
 
+ const friend = ['Michael', 'Steven', 'Peter'];
+ friends.push
+
 /**********Coding challenges**********/
 
 // Coding Challenge #1
