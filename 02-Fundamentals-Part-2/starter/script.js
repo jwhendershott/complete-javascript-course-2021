@@ -170,24 +170,48 @@
 //     console.log(`You're a stupid loser with no friends.`);
 // }
 
-const jonasArray = [
-    'Jonas',
-    'Schmedtmann',
-    2037- 1991,
-    'teacher',
-    ['Michael', 'Peter', 'Steven']
-];
+// const jonasArray = [
+//     'Jonas',
+//     'Schmedtmann',
+//     2037- 1991,
+//     'teacher',
+//     ['Michael', 'Peter', 'Steven']
+// ];
 
-const jonas = {
-    firstName: 'Jonas',
-    lastName: 'Schmedtmann',
-    age: 2037 - 1991,
-    job: 'teacher',
-    friends: ['Michael', 'Peter', 'Steven']
-};
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     age: 2037 - 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven']
+// };
 
-console.log(jonas);
-console.log(jonas.age);
+// console.log(jonas);
+// console.log(jonas.age);
+// console.log(jonas['lastName']);
+
+// const nameKey = 'Name';
+
+// console.log(jonas['first' + nameKey]);
+// console.log(jonas['last' + nameKey]);
+
+// const interestedIn = prompt('What do you want to know about Jonas? Choose between firstNmae, lastName, age, job, and friends.');
+
+// // console.log(interestedIn);
+// if (jonas[interestedIn]) {
+// console.log(jonas[interestedIn]);
+// } else {
+//     console.log(`That's not an answer dummy.`)
+// }
+
+// jonas.location = 'Portugal';
+// jonas['twitter'] = '@jonas';
+
+// console.log(jonas);
+
+// // Challene
+
+// console.log(`${jonas['first' + nameKey]} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}.`)
 
 
 /**********Coding challenges**********/
