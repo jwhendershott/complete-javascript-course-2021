@@ -249,6 +249,15 @@
 
 // console.log(jonas.getSummary())
 
+// console.log('Lifting weights repetition 1 🏋️‍♂️');
+// console.log('Lifting weights repetition 2 🏋️‍♂️');
+// console.log('Lifting weights repetition 3 🏋️‍♂️');
+// console.log('Lifting weights repetition 4 🏋️‍♂️');
+
+for(let rep = 1; rep  <= 10; rep++) {
+    console.log(`Lifting weights ${rep} 🏋️‍♂️`)
+}
+
 
 /**********Coding challenges**********/
 
@@ -325,34 +334,34 @@
 
 // Coding Challenge #3
 
-const mark = {
-    firstName: 'Mark',
-    lastName: 'Miller',
-    weight: '78',
-    height: '1.69',
+// const mark = {
+//     firstName: 'Mark',
+//     lastName: 'Miller',
+//     weight: '78',
+//     height: '1.69',
 
-        calcBMI: function() {
-    this.bmi = this.weight / this.height ** 2;
-    return this.bmi;
-    }
+//         calcBMI: function() {
+//     this.bmi = this.weight / this.height ** 2;
+//     return this.bmi;
+//     }
 
-}
+// }
 
-const john = {
-    firstName: 'John',
-    lastName: 'Smith',
-    weight: '92',
-    height: '1.95',
+// const john = {
+//     firstName: 'John',
+//     lastName: 'Smith',
+//     weight: '92',
+//     height: '1.95',
 
-        calcBMI: function() {
-    this.bmi = this.weight / this.height ** 2;
-    return this.bmi;
-    }
+//         calcBMI: function() {
+//     this.bmi = this.weight / this.height ** 2;
+//     return this.bmi;
+//     }
 
-};
+// };
 
-if (mark.calcBMI() > john.calcBMI()) {
-    console.log(`${mark.firstName}'s BMI is (${mark.bmi}) is higher than ${john.firstName}'s (${john.bmi})`);
-} else {
-    console.log(`${john.firstName}'s BMI is (${john.bmi}) is higher than ${mark.firstName}'s (${mark.bmi})`);
-};
+// if (mark.calcBMI() > john.calcBMI()) {
+//     console.log(`${mark.firstName}'s BMI is (${mark.bmi}) is higher than ${john.firstName}'s (${john.bmi})`);
+// } else {
+//     console.log(`${john.firstName}'s BMI is (${john.bmi}) is higher than ${mark.firstName}'s (${mark.bmi})`);
+// };
