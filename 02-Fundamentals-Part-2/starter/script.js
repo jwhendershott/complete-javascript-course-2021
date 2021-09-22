@@ -324,3 +324,35 @@
 // console.log(bills, tips);
 
 // Coding Challenge #3
+
+const mark = {
+    firstName: 'Mark',
+    lastName: 'Miller',
+    weight: '78',
+    height: '1.69',
+
+        calcBMI: function() {
+    this.bmi = this.weight / this.height ** 2;
+    return this.bmi;
+    }
+
+}
+
+const john = {
+    firstName: 'John',
+    lastName: 'Smith',
+    weight: '92',
+    height: '1.95',
+
+        calcBMI: function() {
+    this.bmi = this.weight / this.height ** 2;
+    return this.bmi;
+    }
+
+};
+
+if (mark.calcBMI() > john.calcBMI()) {
+    console.log(`${mark.firstName}'s BMI is (${mark.bmi}) is higher than ${john.firstName}'s (${john.bmi})`);
+} else {
+    console.log(`${john.firstName}'s BMI is (${john.bmi}) is higher than ${mark.firstName}'s (${mark.bmi})`);
+};
